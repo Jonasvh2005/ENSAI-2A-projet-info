@@ -17,7 +17,7 @@ class PlayerModel(BaseModel):
     @field_validator("password")
     @classmethod
     def check_password_length(cls, v: str) -> str:
-        min_len = 35
+        min_len = 16
         if len(v) < min_len:
             raise ValueError(f"Password must be at least {min_len} characters long")
         return v
