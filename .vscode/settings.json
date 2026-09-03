@@ -34,6 +34,6 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "python.languageServer": "Jedi",
+  "python.languageServer": "None",
   "terminal.integrated.defaultProfile.linux": "bash"
 }
